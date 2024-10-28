@@ -1,0 +1,19 @@
+.motivasi {
+  background-image: url(../../assets/image.png);
+  height: 200px;
+  width: 85%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 100px;
+  padding: 10px;
+  color: white;
+}
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #ff3d55;
+  margin-top: 10px;
+}

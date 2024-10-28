@@ -1,0 +1,17 @@
+.kartu {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+}
+.kartu-item img {
+  border-radius: 10px;
+}
+.tittle {
+  color: #0f1f50;
+  margin: 10px 0;
+}
+.subtitle {
+  color: #ff3d55;
+  margin: 5px 0;
+}

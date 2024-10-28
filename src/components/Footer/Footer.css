@@ -1,0 +1,83 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px auto 0;
+  background-color: #0f1f50;
+  color: white;
+  padding: 20px;
+}
+ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.left {
+  margin: 0 10px;
+  flex-basis: 25%;
+}
+.left .icon {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: white; */
+  color: #ff3d55;
+  margin: 2px;
+}
+.left .icon .icon-item {
+  width: 40px;
+  height: 30px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 2px;
+  /* margin: 10px; */
+  text-align: center;
+  padding-top: 4px;
+}
+
+.middle {
+  flex-basis: 25%;
+}
+.middleeast {
+  flex-basis: 25%;
+}
+.right {
+  flex-basis: 25%;
+}
+input {
+  width: 100%;
+}
+hr {
+  width: 20px;
+  height: 5px;
+  color: #ff3d55;
+  background-color: #ff3d55;
+}
+.btn-footer {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #ff3d55;
+  color: white;
+  float: right;
+}
+p {
+  margin: 10px 0;
+}
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ff3d55;
+  margin: 6px;
+}
+.keahlian {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-left: 10px;
+}
+.keahlian .icon-item {
+  margin-right: 10px;
+}
+.keahlianhlian .tulisan {
+  flex-basis: 75%;
+  float: left;
+  padding-left: 10px;
+}

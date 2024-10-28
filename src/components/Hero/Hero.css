@@ -1,0 +1,58 @@
+.hero {
+  height: 400px;
+  margin: 5px auto;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  /* width: 90%; */
+}
+
+.hero-left {
+  flex-basis: 30%;
+  position: relative;
+  margin-left: 10px;
+  /* justify-content: flex-end; */
+}
+.hero-right {
+  flex-basis: 70%;
+  margin: 20px 50px;
+  padding: 20px 0;
+  margin-right: 10px;
+  text-align: left;
+}
+.hero-right .p-1 {
+  font-size: 15px;
+  color: red;
+}
+
+.hero img {
+  height: 250px;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  height: 100px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.card .card-left {
+  flex-basis: 15%;
+}
+.card .card-right {
+  flex-basis: 85%;
+  padding: 10px 6px;
+  margin-left: 10px;
+}
+.hero .img-bulet {
+  height: 70px;
+  width: 70px;
+  border-radius: 2px;
+  /* margin-left: 50px; */
+  float: right;
+}

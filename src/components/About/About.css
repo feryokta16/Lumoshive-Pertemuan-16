@@ -1,0 +1,17 @@
+.about {
+  text-align: center;
+  background-color: #0f1f50;
+  color: white;
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+.about h1 {
+  color: #ff3d55;
+}
+.about {
+  color: white;
+}
